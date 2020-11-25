@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: monospace
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  margin-top: -22px;
+  background: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+  min-height: 100vh;
+  color: white;
+ 
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 77px;
+  border-bottom: 1px solid lightgray;
+}
+.header > form {
+  flex: 1;
+  display: flex;
+}
+.header > form > input {
+  border: none;
+  font-family: monospace !important;
+  width: 76vw;
+  padding: 8px;
+  border-radius: 30px;
+  outline: none;
+  background: none;
+  border: 2px solid white;
+  font-size: 22px;
+    color: white;
+}
